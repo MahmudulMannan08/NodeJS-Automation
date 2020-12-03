@@ -1,5 +1,5 @@
 # Node.js Automation
-## Node.js automation with Jasmine and Protractor for anugular based websites and backend services
+## Angular based website and backend service automation with Node.js and Protractor
  
 **Development IDE:** Visual Studio Code
 
