@@ -16,17 +16,16 @@ module.exports = {
             "basicAuthPassDRPROD": { value: conf2.config.basicAuthPassDRPROD },
             "MMS": {
                 "PROD": {
-                    "URL": "http://mmsintprlb.firstcdn.com/FCTPortal/SignOn.aspx",
-                    //http://mmsintprlb.firstcdn.com/FCTPortal/SignOn.aspx
+                    "URL": "",
                     "UserName": "test123",
                     "Password": "Password1",
                     "Rel1UserName": "ali",
                     "Rel1Password": "Password1",
-                    "Rel2UserName": "msudol",
-                    "Rel2Password": "Password1",
+                    "Rel2UserName": "",
+                    "Rel2Password": "",
                     "Lender": {
                         "0": {
-                            "Name": "RFA Bank of Canada",
+                            "Name": "",
                             "Spec": "Street Capital,",
                             "Branch": "1",
                             "ContactName": "SCFC - Lad Support1002",
@@ -48,7 +47,7 @@ module.exports = {
                             "MortgageProduct": "Street Select"
                         },
                         "1": {
-                            "Name": "Paradigm Quest Inc.",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "User01 Test01",
@@ -56,7 +55,7 @@ module.exports = {
                             "MortgageProduct": "Adjustable Rate Mortgage"
                         },
                         "2": {
-                            "Name": "B2B Bank",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "LAD Support",
@@ -64,7 +63,7 @@ module.exports = {
                             "MortgageProduct": "Line of Credit"
                         },
                         "3": {
-                            "Name": "RMG Mortgages",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "Test User",
@@ -73,7 +72,7 @@ module.exports = {
                         },
                     },
 
-                    "LawyerDataLawFirm": "Rob Ciardelli Law",
+                    "LawyerDataLawFirm": "",
                 },
                 "DR": {
                     "URL": "http://mmsintdrlb.firstcdn.com/FCTPortal/SignOn.aspx",
@@ -85,7 +84,7 @@ module.exports = {
                     "Rel2Password": "Password1",
                     "Lender": {
                         "0": {
-                            "Name": "RFA Bank of Canada",
+                            "Name": "",
                             "Spec": "Street Capital,",
                             "Branch": "1",
                             "ContactName": "SCFC - Lad Support1002",
@@ -107,7 +106,7 @@ module.exports = {
                             "MortgageProduct": "Street Select"
                         },
                         "1": {
-                            "Name": "Paradigm Quest Inc.",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "User01 Test01",
@@ -115,7 +114,7 @@ module.exports = {
                             "MortgageProduct": "Adjustable Rate Mortgage"
                         },
                         "2": {
-                            "Name": "B2B Bank",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "LAD Support",
@@ -123,7 +122,7 @@ module.exports = {
                             "MortgageProduct": "Line of Credit"
                         },
                         "3": {
-                            "Name": "RMG Mortgages",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "Test User",
@@ -132,7 +131,7 @@ module.exports = {
                         },
                     },
 
-                    "LawyerDataLawFirm": "Rob Ciardelli Law",
+                    "LawyerDataLawFirm": "",
                 },
                 "PREPROD": {
                     "URL": "http://mmsintsg.prefirstcdn.com/FCTPortal/SignOn.aspx",
@@ -144,7 +143,7 @@ module.exports = {
                     "Rel2Password": "Password1",
                     "Lender": {
                         "0": {
-                            "Name": "RFA Bank of Canada",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "Test Automation",
@@ -172,7 +171,7 @@ module.exports = {
                             "MortgageProduct": "Street Select"
                         },
                         "1": {
-                            "Name": "Paradigm Quest Inc.",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "User01 Test01",
@@ -201,7 +200,7 @@ module.exports = {
                         },
 
                         "2": {
-                            "Name": "B2B Bank",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "LAD Support",
@@ -228,7 +227,7 @@ module.exports = {
                             "MortgageProduct": "Line of Credit"
                         },
                         "3": {
-                            "Name": "RMG Mortgages",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "Test User",
@@ -268,7 +267,7 @@ module.exports = {
                     "Rel2Password": "Password1",
                     "Lender": {
                         "0": {
-                            "Name": "Street Capital Financial Corporation",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "Test Automation",
@@ -296,7 +295,7 @@ module.exports = {
                             "MortgageProduct": "Street Select"
                         },
                         "1": {
-                            "Name": "Paradigm Quest Inc.",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "User01 Test01",
@@ -326,7 +325,7 @@ module.exports = {
                         
                     },
                         "2": {
-                            "Name": "B2B Bank",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "LAD Support",
@@ -355,7 +354,7 @@ module.exports = {
                         
                     },
                         "3": {
-                            "Name": "RMG Mortgages",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "Test User",
@@ -411,7 +410,7 @@ module.exports = {
                             "MortgageProduct": "Street Select"
                         },
                         "1": {
-                            "Name": "Paradigm Quest Inc.",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "User01 Test01",
@@ -422,7 +421,7 @@ module.exports = {
                             "MortgageProduct": "Adjustable Rate Mortgage"
                         },
                         "2": {
-                            "Name": "B2B Bank",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "LAD Support",
@@ -433,7 +432,7 @@ module.exports = {
                             "MortgageProduct": "Line of Credit"
                         },
                         "3": {
-                            "Name": "RMG Mortgages",
+                            "Name": "",
                             "Spec": "Test, Specialist",
                             "Branch": "1",
                             "ContactName": "Test User",
@@ -476,8 +475,7 @@ module.exports = {
                     "TrustAcc": "BNS: 002-01455-4567890",
                 },
                 "PROD": {
-                    "BNSWebServiceurl": "https://fctllcintgpr01.firstcdn.com/PartnerLenderService/PartnerLenderServices.svc?singleWsdl",
-                    //https://fctllcintgpr01.firstcdn.com/PartnerLenderService/PartnerLenderServices.svc?singleWsdl
+                    "BNSWebServiceurl": "",
                     "SERVICE_USERNAME": "testuser",
                     "SERVICE_PASSWORD": "P@33word",
                     "EndPoint": "https://fctexintgpr10.firstcdn.com",
@@ -512,8 +510,7 @@ module.exports = {
                 },
                 "PROD": {
                     "TrustAcc": "Toronto Dominion bank: 345 - 23456 - 45677889",
-                    "EndPoint": "https://integrationsprod.firstcdn.com/InboundLenderService/InboundLenderService.svc",
-                    //https://integrationsprod.firstcdn.com/InboundLenderService/InboundLenderService.svc
+                    "EndPoint": "",
                 },
                 "DR": {
                     "TrustAcc": "Toronto Dominion bank: 345 - 23456 - 45677889",
@@ -525,7 +522,7 @@ module.exports = {
             "LLC": {
 
                 "PROD": {
-                    "LenderPortalURL": "https://llc.firstcdn.com/LenderPortal/Login.aspx",
+                    "LenderPortalURL": "",
                     "TDUserName": "TTDASingla",
                     "TDPassword": "Len$user@3",
                     "BNSLenderUser": "TBNSASingla",
@@ -567,11 +564,11 @@ module.exports = {
             "LawyerDetails": {
 
                 "PROD": {
-                    "UserName": { value: "qtestlawyer3" },
-                    "Password": { value: "llclawyer@sc2" },
+                    "UserName": { value: "" },
+                    "Password": { value: "" },
                     "Token": { value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJxdGVzdGxhd3llcjMiLCJpYXQiOiI4LzE2LzIwMTkgMzowMjoxNSBQTSIsImp0aSI6ImRlZjM0OWUzLTM4ZmMtNGIxNC05YmFhLTQxYzRhMjY3ODg0OCIsIm5iZiI6MTU2NTk4MjEzNSwiZXhwIjoyMTk3MTM0MTM1LCJpc3MiOiJodHRwczovL3d3dy5mY3QuY2EvIiwiYXVkIjoiSW50ZWdyYXRpb24gUGFydG5lcnMifQ.Gq8fhXIJdI3EdN1nbkJG5s1-zKf3cShpnK-SaSE0Xrs" },
                     "XFCTAuthorizationVal": { value: '{"authenticatedFctUser": "qtestlawyer3","userContext":{"partnerUserName": "qtestlawyer3","firstName": "QA","lastName": "Test Lawyer 3","businessRole": "LAWYER","fctUserName": ""}}' },
-                    "Endpoint": "https://fctexintgpr10.firstcdn.com",
+                    "Endpoint": "",
                     "Resource": "/LawyerIntegrationGateway/v1/Transactions/",
                     "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJxdGVzdGxhd3llcjMiLCJpYXQiOiI4LzE2LzIwMTkgMzowMjoxNSBQTSIsImp0aSI6ImRlZjM0OWUzLTM4ZmMtNGIxNC05YmFhLTQxYzRhMjY3ODg0OCIsIm5iZiI6MTU2NTk4MjEzNSwiZXhwIjoyMTk3MTM0MTM1LCJpc3MiOiJodHRwczovL3d3dy5mY3QuY2EvIiwiYXVkIjoiSW50ZWdyYXRpb24gUGFydG5lcnMifQ.Gq8fhXIJdI3EdN1nbkJG5s1-zKf3cShpnK-SaSE0Xrs",
                     "authenticatedFctUser": "qtestlawyer3",
@@ -694,7 +691,7 @@ module.exports = {
                 },
 
                 "PROD": {
-                    "Endpoint": "https://fctexintgpr10.firstcdn.com",
+                    "Endpoint": "",
                     "Resource": "/LawyerIntegrationGateway/v1/Transactions/",
                     "ResourcePart": "/lenderchanges",
                     "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJxdGVzdGxhd3llcjMiLCJpYXQiOiI4LzE2LzIwMTkgMzowMjoxNSBQTSIsImp0aSI6ImRlZjM0OWUzLTM4ZmMtNGIxNC05YmFhLTQxYzRhMjY3ODg0OCIsIm5iZiI6MTU2NTk4MjEzNSwiZXhwIjoyMTk3MTM0MTM1LCJpc3MiOiJodHRwczovL3d3dy5mY3QuY2EvIiwiYXVkIjoiSW50ZWdyYXRpb24gUGFydG5lcnMifQ.Gq8fhXIJdI3EdN1nbkJG5s1-zKf3cShpnK-SaSE0Xrs",
@@ -723,8 +720,8 @@ module.exports = {
             "URL_LLCEmulator": {
 
                 "PROD": {
-                    "UserName": { value: "qtestlawyer3" },
-                    "Password": { value: "llclawyer@sc2" },
+                    "UserName": { value: "" },
+                    "Password": { value: "" },
                     "Token": { value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJxdGVzdGxhd3llcjMiLCJpYXQiOiI4LzE2LzIwMTkgMzowMjoxNSBQTSIsImp0aSI6ImRlZjM0OWUzLTM4ZmMtNGIxNC05YmFhLTQxYzRhMjY3ODg0OCIsIm5iZiI6MTU2NTk4MjEzNSwiZXhwIjoyMTk3MTM0MTM1LCJpc3MiOiJodHRwczovL3d3dy5mY3QuY2EvIiwiYXVkIjoiSW50ZWdyYXRpb24gUGFydG5lcnMifQ.Gq8fhXIJdI3EdN1nbkJG5s1-zKf3cShpnK-SaSE0Xrs" },
                     "XFCTAuthorizationVal": { value: '{"authenticatedFctUser": "qtestlawyer3","userContext":{"partnerUserName": "qtestlawyer3","firstName": "QA","lastName": "Test Lawyer 3","businessRole": "LAWYER","fctUserName": ""}}' },
                     //"TrustAccount": { value: " TD Canada Trust: 546 - 34532 - 457654674353 " },
@@ -739,8 +736,8 @@ module.exports = {
                     "LastNameUnity": { value: "Test Lawyer 3" },
                 },
                 "DR": {
-                    "UserName": { value: "qtestlawyer3" },
-                    "Password": { value: "llclawyer@sc2" },
+                    "UserName": { value: "" },
+                    "Password": { value: "" },
                     "Token": { value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJxdGVzdGxhd3llcjMiLCJpYXQiOiIxMS84LzIwMTkgMzowOTo0MCBQTSIsImp0aSI6Ijg1NmZkM2M1LThmYzEtNDEyOS1hNzc2LTM0ODliYzliNDg3OCIsIm5iZiI6MTU3MzI0Mzc4MCwiZXhwIjoyMjA0Mzk1NzgwLCJpc3MiOiJodHRwczovL3d3dy5mY3QuY2EvIiwiYXVkIjoiSW50ZWdyYXRpb24gUGFydG5lcnMifQ.S6RL00og7e8w4tWsl7Xny5p0bmQFmWg8wB4MA1LfL0c" },
                     "XFCTAuthorizationVal": { value: '{"authenticatedFctUser": "qtestlawyer3","userContext":{"partnerUserName": "qtestlawyer3","firstName": "QA","lastName": "Test Lawyer 3","businessRole": "LAWYER","fctUserName": ""}}' },
                     "TrustAccount": { value: " Bank of Montreal: 345 - 43254 - 435435435435 " },
@@ -805,12 +802,10 @@ module.exports = {
             "OperationsPortal": {
 
                 "PROD": {
-                    //"URL": { value: "https://asingla@firstcdn.com:Jmnd@2020!@llcintprlb.firstcdn.com/OperationsPortal/" },
-                    "URL": { value: "https://TestQA@firstcdn.com:Fct1234!@llcintprlb.firstcdn.com/OperationsPortal/" },
+                    "URL": { value: "" },
                 },
                 "DR": {
-                    //"URL": { value: "https://asingla@firstcdn.com:Jmnd@2020!@llcintprlb.firstcdn.com/OperationsPortal/" },
-                    "URL": { value: "https://TestQA@firstcdn.com:Fct1234!@llcintdrlb.firstcdn.com/OperationsPortal/" },
+                    "URL": { value: "" },
                 },
 
                 "PREPROD": {
@@ -839,7 +834,7 @@ module.exports = {
 
                 "PROD": {
                     "AuthToken": { value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJxdGVzdGxhd3llcjMiLCJpYXQiOiI4LzE2LzIwMTkgMzowMjoxNSBQTSIsImp0aSI6ImRlZjM0OWUzLTM4ZmMtNGIxNC05YmFhLTQxYzRhMjY3ODg0OCIsIm5iZiI6MTU2NTk4MjEzNSwiZXhwIjoyMTk3MTM0MTM1LCJpc3MiOiJodHRwczovL3d3dy5mY3QuY2EvIiwiYXVkIjoiSW50ZWdyYXRpb24gUGFydG5lcnMifQ.Gq8fhXIJdI3EdN1nbkJG5s1-zKf3cShpnK-SaSE0Xrs' },
-                    "endPoint": { value: 'https://fctexintgpr10.firstcdn.com' },
+                    "endPoint": { value: '' },
                     "Resource": { value: '/LawyerIntegrationGateway/v1/Llcurls/GetRedirectUrl' },
                 },
                 "DR": {
