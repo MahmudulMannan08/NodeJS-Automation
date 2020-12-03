@@ -1,0 +1,37 @@
+AB,Fixed Rate Mortgage/Charge,2352417,N/A
+AB,Retail Collateral Mortgage,2158914,181163752
+AB,Variable Rate Mortgage/Charge,2348812,N/A
+MB,Bank of Nova Scotia Collateral STEP Mortgage Charge Manitoba,2159414,4996542/1
+MB,Fixed Rate Mortgage Manitoba,2343316,4996555/1
+MB,VRM Mortgage Manitoba,2349711,4996553/1
+MB,Flex VRM Mortgage Manitoba,2351714,4996547/1
+NB,Collateral Mortgage,2355914,SMC-2997
+NB,Fixed Rate Mortgage Charge,2350116,SMC-2401
+NB,Variable Rate Mortgage Charge,2350418,SMC-2402
+NB,Flex VRM Mortgage Charge,2350513,SMC-2399
+ON,Ontario Collateral Mortgage Form,2153912,201809
+ON,Fixed Rate Mortgage Charge,2348617,201407
+ON,Flex VRM Mortgage Charge,2350319,201409
+BC,Fixed Rate Mortgage Charge,2341212,MT140010
+BC,Collateral Mortgage,2153114,MT180016
+BC,Variable Rate Mortgage Charge,2351512,MT140011
+BC,Flex VRM Mortgage Charge - Closed,2351218,MT140010
+BC,Flex VRM Mortgage Charge - Open,2357410,MT140010
+SK,Collateral Mortgage,2159112,N/A
+SK,Fixed Rate Mortgage Charge,2341314,N/A
+SK,Variable Rate Mortgage Charge,2354116,N/A
+NB,Hypothe?que subsidiaire re?sidentielle - Formule 15.1,2355930,SMC-2998
+NB,Hypothe?que subsidiaire re?sidentielle - Formule A15.1,2156334,N/A
+NB,PHTV 5 ANS - Acte de Charge (hypoth�que),2350034,SMC-1411
+NB,Pre?t hypothe?caire - Conventionnel - Taux variable,2350538,SMC-2404
+NB,Pre?t hypothe?caire - Ordinaire - Taux fixe,2350132,SMC-2408
+NB,Pre?t hypothe?caire - Ordinaire - Taux variable,2350434,SMC-2405
+NB,Hypoth�que Flex Condo,2357739,N/A
+NB,Hypoth�que PHTF Condo,2342138,N/A
+NB,Hypoth�que PHTV Condo,2354934,N/A
+BC,No French Mortgage/Charge forms available,N/A,N/A
+SK,No French Mortgage/Charge forms available,N/A,N/A
+ON,Acte de charge (Hypoth�que),2153939,201810
+ON,Pr�t hypoth�caire - Ordinaire - Taux fixe,2348633,201408
+ON,Pre?t hypothe?caire - Ordinaire - Taux variable,2349930,201412
+ON,Pr�t hypoth�caire - Conventionnel - Taux variable,2350335,201410

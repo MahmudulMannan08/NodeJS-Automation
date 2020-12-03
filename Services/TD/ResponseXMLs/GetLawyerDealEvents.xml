@@ -1,0 +1,9 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <GetLawyerDealEventsResponse xmlns="https://schemas.firstcdn.com/LLC/LenderIntegration/ExternalInterface/20110701">
+         <MessageID xmlns="">05177d29-8fde-13f0-126f-224ad9050355</MessageID>
+         <TimeStamp xmlns="">2019-05-17T05:03:56.5226261-04:00</TimeStamp>
+         <NumberOfMessages xmlns="">0</NumberOfMessages>
+      </GetLawyerDealEventsResponse>
+   </s:Body>
+</s:Envelope>

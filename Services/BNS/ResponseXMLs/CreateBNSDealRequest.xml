@@ -1,0 +1,472 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="https://schemas.firstcdn.com/LLC/LenderIntegration/ExternalInterface/20090701">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:LenderRequest>
+         <MessageID>${#TestCase#MessageID}</MessageID>
+         <TransactionType>NEW</TransactionType>
+         <!--<TransactionType>UPDATE</TransactionType>-->
+         <LenderReferenceNumber>${#TestCase#LenderReferenceNumber}</LenderReferenceNumber>
+         <BasicTransactionData>
+            <!--<FCTURN>11119000015</FCTURN>-->
+            <LenderId>${#Project#LenderId}</LenderId>
+            <LawyerId>${#Project#LawyerID}</LawyerId>
+         </BasicTransactionData>
+         <BridgeLoan>
+            <MortgageAmount>100000</MortgageAmount>
+            <InterestRate>0.025</InterestRate>
+            <InterestAdjustmentDate>2019-10-10</InterestAdjustmentDate>
+            <FirstPaymentDate>2019-10-10</FirstPaymentDate>
+            <MaturityDate>2020-05-05</MaturityDate>
+            <Address>
+               <UnitNumber>15</UnitNumber>
+               <StreetNumber>23</StreetNumber>
+               <StreetAddress1>KAM SING MANSION</StreetAddress1>
+               <StreetAddress2>TAI KOO</StreetAddress2>
+               <Country>Canada</Country>
+               <City>Oakville</City>
+               <Province>ON</Province>
+               <PostalCode>L6R 1Y7</PostalCode>
+            </Address>
+         </BridgeLoan>
+         <MortgageCentre>
+            <Name>Ottawa 114</Name>
+            <FirstName>Mortgage</FirstName>
+            <MiddleName>Middle</MiddleName>
+            <LastName>Centre</LastName>
+            <Phone>9052871000</Phone>
+            <Fax>9052872400</Fax>
+            <Email>mtgcnt@firstcdn.com</Email>
+            <Address>
+               <UnitNumber>12</UnitNumber>
+               <StreetNumber>1234</StreetNumber>
+               <StreetAddress1>First Street</StreetAddress1>
+               <StreetAddress2>Address 2</StreetAddress2>
+               <Country>Canada</Country>
+               <City>Etobicoke</City>
+               <Province>ON</Province>
+               <PostalCode>L4Z 2Y6</PostalCode>
+            </Address>
+            <TransitNumber>23456</TransitNumber>
+         </MortgageCentre>
+         <DealSource>
+            <MortgageSpecialist>
+               <Name>Ottawa 15</Name>
+               <FirstName>Mortgage</FirstName>
+               <MiddleName>Middle</MiddleName>
+               <LastName>Specialist</LastName>
+               <Phone>9052871000</Phone>
+               <Fax>9052872400</Fax>
+               <Email>mtgspecialist@firstcdn.com</Email>
+               <Address>
+                  <UnitNumber>55</UnitNumber>
+                  <StreetNumber>777</StreetNumber>
+                  <StreetAddress1>Second Street</StreetAddress1>
+                  <StreetAddress2>5th Floor</StreetAddress2>
+                  <Country>Canada</Country>
+                  <City>Kitchener</City>
+                  <Province>ON</Province>
+                  <PostalCode>L4Z 2Y8</PostalCode>
+               </Address>
+               <TransitNumber>23457</TransitNumber>
+            </MortgageSpecialist>
+         </DealSource>
+         <ServiceAddress>MORTGAGE CENTRE</ServiceAddress>
+         <MailingAddress>DEAL SOURCE</MailingAddress>
+         <Mortgage>
+            <Mortgagee>123</Mortgagee>
+            <MortgageNumber>${#TestCase#LenderReferenceNumber}</MortgageNumber>
+            <MortgageProduct>SPRO</MortgageProduct>
+            <OwningBranch>
+               <Name>Owning Branch 15</Name>
+               <FirstName>Frank</FirstName>
+               <MiddleName>Owen</MiddleName>
+               <LastName>Scott</LastName>
+               <Phone>9052871000</Phone>
+               <Fax>9052872400</Fax>
+               <Email>ownbrn@firstcdn.com</Email>
+               <Address>
+                  <UnitNumber>15</UnitNumber>
+                  <StreetNumber>333</StreetNumber>
+                  <StreetAddress1>Main Street West</StreetAddress1>
+                  <StreetAddress2>10th Floor</StreetAddress2>
+                  <Country>Canada</Country>
+                  <City>Toronto</City>
+                  <Province>ON</Province>
+                  <PostalCode>L4Z 5Y6</PostalCode>
+               </Address>
+               <TransitNumber>23458</TransitNumber>
+            </OwningBranch>
+            <ClosingDate>${#Project#ClosingDate}</ClosingDate>
+            <MortgageInsurer>Peter</MortgageInsurer>
+            <MortgageTermYear>8</MortgageTermYear>
+            <MortgageTermMonth>6</MortgageTermMonth>
+            <RegistrationAmountText>
+               <TextValue>
+                  <Text>Test Registration Text EnglishTC</Text>
+                  <Language>ENGLISH</Language>
+               </TextValue>
+            </RegistrationAmountText>
+            <RegisteredInterestRate>
+               <TextValue>
+                  <Text>Test Registered Interest Rate English</Text>
+                  <Language>ENGLISH</Language>
+               </TextValue>
+            </RegisteredInterestRate>
+            <RegistrationPaymentFrequency>MORE FREQUENT</RegistrationPaymentFrequency>
+            <MonthlyPayment>
+               <!--You have a CHOICE of the next 2 items at this level-->
+               <PaymentAmount>1475</PaymentAmount>
+               <!--You have a CHOICE of the next 2 items at this level-->
+               <FirstPaymentDate>2019-06-02</FirstPaymentDate>
+               <PaymentDateAndPeriod>
+                  <TextValue>
+                     <Text>The first day of each month</Text>
+                     <Language>ENGLISH</Language>
+                  </TextValue>
+                  <TextValue>
+                     <Text>The first day of each month</Text>
+                     <Language>FRENCH</Language>
+                  </TextValue>
+               </PaymentDateAndPeriod>
+               <PropertyTaxAmount>125</PropertyTaxAmount>
+               <InsuranceAmount>150</InsuranceAmount>
+            </MonthlyPayment>
+            <MoreFrequentPayment>
+               <!--You have a CHOICE of the next 2 items at this level-->
+               <PaymentAmount>1600</PaymentAmount>
+               <FirstPaymentDateText>
+                  <TextValue>
+                     <Text>Test First Payment Date Text English Test1</Text>
+                     <Language>ENGLISH</Language>
+                  </TextValue>
+                  <TextValue>
+                     <Text>TestFirstPaymentDateTextFrench</Text>
+                     <Language>FRENCH</Language>
+                  </TextValue>
+               </FirstPaymentDateText>
+               <PropertyTaxAmount>50</PropertyTaxAmount>
+               <InsuranceAmount>50</InsuranceAmount>
+               <IsAccelerated>true</IsAccelerated>
+               <PaymentFrequency>BI_WEEKLY</PaymentFrequency>
+            </MoreFrequentPayment>
+            <TotalLoanAmount>125460</TotalLoanAmount>
+            <DateOfLoanApplication>2019-03-03</DateOfLoanApplication>
+            <SolicitorConditions>
+               <!--Zero or more repetitions:-->
+               <SolicitorCondition>
+                  <!--Optional:-->
+                  <ClauseSequence>22</ClauseSequence>
+                  <!--Optional:-->
+                  <ClauseData>This is a First Clause Data</ClauseData>
+               </SolicitorCondition>
+               <SolicitorCondition>
+                  <!--Optional:-->
+                  <ClauseSequence>23</ClauseSequence>
+                  <!--Optional:-->
+                  <ClauseData>This is second Clause Data</ClauseData>
+               </SolicitorCondition>
+               <SolicitorCondition>
+                  <!--Optional:-->
+                  <ClauseSequence>24</ClauseSequence>
+                  <!--Optional:-->
+                  <ClauseData>This is Third Clause Data</ClauseData>
+               </SolicitorCondition>
+            </SolicitorConditions>
+            <InterestRateType>
+               <Variable>
+                  <!--You have a CHOICE of the next 2 items at this level-->
+                  <BaseRate>10</BaseRate>
+                  <IncrementAboveBelowPrime>-1.075</IncrementAboveBelowPrime>
+                  <EquivalentRate>1.5</EquivalentRate>
+                  <ActualMortgageRate>5.25555</ActualMortgageRate>
+                  <MaximumChargeRate>2.12345</MaximumChargeRate>
+                  <EarlyPaymentAmount>0.12345</EarlyPaymentAmount>
+               </Variable>
+            </InterestRateType>
+            <CalculationPeriod>1002</CalculationPeriod>
+            <MaturityDate>2023-11-10</MaturityDate>
+            <InterestAdjustmentDate>2019-11-10</InterestAdjustmentDate>
+            <AmortizationYears>25</AmortizationYears>
+            <AmortizationMonths>5</AmortizationMonths>
+            <IsConstructionMortgage>true</IsConstructionMortgage>
+            <IsAssignmentOfRents>false</IsAssignmentOfRents>
+            <CashBackAmount>1800</CashBackAmount>
+           <StandardChargeTermsNumber>
+               <TextValue>
+                  <Text>MT030091</Text>
+                  <Language>ENGLISH</Language>
+               </TextValue>
+               <TextValue>
+                  <Text>MT030091</Text>
+                  <Language>FRENCH</Language>
+               </TextValue>
+            </StandardChargeTermsNumber>
+            <RateExpiryDate>2019-11-10</RateExpiryDate>
+            <HighRatioIndicator>LOW</HighRatioIndicator>
+            <ILAs>
+               <ILA>
+                  <FirstName>DavidILA1</FirstName>
+                  <MiddleName>LampILA1</MiddleName>
+                  <LastName>PardILA1</LastName>
+               </ILA>
+               <ILA>
+                  <FirstName>DavidILA2</FirstName>
+                  <MiddleName>LampILA2</MiddleName>
+                  <LastName>PardILA2</LastName>
+               </ILA>
+            </ILAs>
+            <IsSolicitorClose>${#Project#IsSolicitorClose}</IsSolicitorClose>
+         </Mortgage>
+         <Funding>
+            <FundingInfo>
+               <PaymentMethod>DIRECT DEPOSIT</PaymentMethod>
+               <DirectDeposit>
+                  <AccountNumber>4567890</AccountNumber>
+                  <TransitNumber>01455</TransitNumber>
+                  <BankNumber>002</BankNumber>
+                  <BankName>BNS</BankName>
+               </DirectDeposit>
+            </FundingInfo>
+            <IsHold>false</IsHold>
+            <IsRFF>${#Project#IsRFF}</IsRFF>
+         </Funding>
+         <MortgageLoanFees>
+            <InsurancePremium>110.50</InsurancePremium>
+            <TaxOnInsurancePremium>125.75</TaxOnInsurancePremium>
+            <InsuranceApplicationFee>108.95</InsuranceApplicationFee>
+            <AppraisalFee>105.50</AppraisalFee>
+            <LenderFee>107.05</LenderFee>
+            <MiscellaneousFee>115.80</MiscellaneousFee>
+            <HoldbackFee>116.15</HoldbackFee>
+            <BuydownAtCommitmentFee>107.29</BuydownAtCommitmentFee>
+            <BridgeLoanApplicationFee>108.65</BridgeLoanApplicationFee>
+            <NetMortgageAdvance>1.023</NetMortgageAdvance>
+         </MortgageLoanFees>
+         <Mortgagors>
+            <Mortgagor>
+               <Person>
+                  <FirstName>Marilyn</FirstName>
+                  <MiddleName>J.</MiddleName>
+                  <LastName>Monroe</LastName>
+                  <Phone>9052871000</Phone>
+                  <BusinessPhone>9052871000</BusinessPhone>
+               </Person>
+               <Address>
+                  <UnitNumber>1875</UnitNumber>
+                  <StreetNumber>17</StreetNumber>
+                  <StreetAddress1>Lakeshore Blvd. West</StreetAddress1>
+                  <StreetAddress2>10th Floor</StreetAddress2>
+                  <Country>Canada</Country>
+                  <City>Toronto</City>
+                  <Province>ON</Province>
+                  <PostalCode>L4Z 6C9</PostalCode>
+               </Address>
+               <Id>2238</Id>
+               <PriorityIndicator>2</PriorityIndicator>
+               <UnsecuredDebts>
+                  <UnsecuredDebt>
+                     <Creditor>BOC</Creditor>
+                     <Action>CLSACCNT</Action>
+                     <Amount>3388</Amount>
+                  </UnsecuredDebt>
+               </UnsecuredDebts>
+            </Mortgagor>
+            <Mortgagor>
+               <Person>
+                  <FirstName>George</FirstName>
+                  <MiddleName>Matthew</MiddleName>
+                  <LastName>Donald</LastName>
+                  <Phone>9052871000</Phone>
+                  <BusinessPhone>9052871000</BusinessPhone>
+               </Person>
+               <Address>
+                  <UnitNumber>85</UnitNumber>
+                  <StreetNumber>245</StreetNumber>
+                  <StreetAddress1>Glen Erin Drive</StreetAddress1>
+                  <StreetAddress2>Northwest</StreetAddress2>
+                  <Country>Canada</Country>
+                  <City>Toronto</City>
+                  <Province>ON</Province>
+                  <PostalCode>L4Z 8Y6</PostalCode>
+               </Address>
+               <Id>2239</Id>
+               <PriorityIndicator>1</PriorityIndicator>
+               <UnsecuredDebts>
+                  <UnsecuredDebt>
+                     <Creditor>BOC</Creditor>
+                     <Action>CLSACCNT</Action>
+                     <Amount>3388</Amount>
+                  </UnsecuredDebt>
+               </UnsecuredDebts>
+               <IsILARequired>true</IsILARequired>
+               <SpouseInformation>
+                  <FirstName>Monica</FirstName>
+                  <MiddleName>Jessy</MiddleName>
+                  <LastName>Ruther</LastName>
+                  <IsILARequired>false</IsILARequired>
+               </SpouseInformation>
+            </Mortgagor>
+            <Mortgagor>
+               <Person>
+                  <FirstName>Rachel</FirstName>
+                  <MiddleName>Bruce</MiddleName>
+                  <LastName>Larry</LastName>
+                  <Phone>9052871000</Phone>
+                  <BusinessPhone>9052871000</BusinessPhone>
+               </Person>
+               <Address>
+                  <UnitNumber>851</UnitNumber>
+                  <StreetNumber>2415</StreetNumber>
+                  <StreetAddress1>Burnhamthrope Road</StreetAddress1>
+                  <StreetAddress2>Southwest Street2</StreetAddress2>
+                  <Country>Canada</Country>
+                  <City>Toronto</City>
+                  <Province>${#Project#Province}</Province>
+                  <PostalCode>L4Z 8P6</PostalCode>
+               </Address>
+               <Id>1024</Id>
+               <PriorityIndicator>2</PriorityIndicator>
+               <UnsecuredDebts>
+                  <UnsecuredDebt>
+                     <Creditor>BOC</Creditor>
+                     <Action>CLSACCNT</Action>
+                     <Amount>3388</Amount>
+                  </UnsecuredDebt>
+               </UnsecuredDebts>
+               <IsILARequired>true</IsILARequired>
+               <SpouseInformation>
+                  <FirstName>NewMonica</FirstName>
+                  <MiddleName>NewJessy</MiddleName>
+                  <LastName>MewRuther</LastName>
+                  <IsILARequired>false</IsILARequired>
+               </SpouseInformation>
+            </Mortgagor>
+            <Mortgagor>
+               <Company>
+                  <Name>First Canadian Title</Name>
+                  <ContactFirstName>Thomas</ContactFirstName>
+                  <ContactLastName>James</ContactLastName>
+                  <Phone>9052871000</Phone>
+               </Company>
+               <Address>
+                  <StreetNumber>2425</StreetNumber>
+                  <StreetAddress1>Bloor Avenue</StreetAddress1>
+                  <Country>Canada</Country>
+                  <City>Toronto</City>
+                  <Province>ON</Province>
+                  <PostalCode>L4Z 8P6</PostalCode>
+               </Address>
+               <Id>2241</Id>
+               <PriorityIndicator>5</PriorityIndicator>
+               <UnsecuredDebts>
+                  <UnsecuredDebt>
+                     <Creditor>BOC</Creditor>
+                     <Action>CLSACCNT</Action>
+                     <Amount>3388</Amount>
+                  </UnsecuredDebt>
+               </UnsecuredDebts>
+               <IsILARequired>true</IsILARequired>
+            </Mortgagor>
+            <Mortgagor>
+               <Company>
+                  <Name>FCT CORP</Name>
+                  <ContactFirstName>Tom</ContactFirstName>
+                  <ContactLastName>Jones</ContactLastName>
+                  <Phone>9052871000</Phone>
+               </Company>
+               <Address>
+                  <StreetNumber>2425</StreetNumber>
+                  <StreetAddress1>Bloor Avenue</StreetAddress1>
+                  <Country>Canada</Country>
+                  <City>Toronto</City>
+                  <Province>ON</Province>
+                  <PostalCode>L4Z 8F6</PostalCode>
+               </Address>
+               <Id>2242</Id>
+               <PriorityIndicator>5</PriorityIndicator>
+               <UnsecuredDebts>
+                  <UnsecuredDebt>
+                     <Creditor>BOC</Creditor>
+                     <Action>CLSACCNT</Action>
+                     <Amount>3388</Amount>
+                  </UnsecuredDebt>
+               </UnsecuredDebts>
+               <IsILARequired>true</IsILARequired>
+            </Mortgagor>
+         </Mortgagors>
+         <MortgagorPreferredLanguage>ENGLISH</MortgagorPreferredLanguage>
+         <Guarantors>
+            <Guarantor>
+               <Person>
+                  <FirstName>Terry</FirstName>
+                  <MiddleName>Tek</MiddleName>
+                  <LastName>Lau</LastName>
+                  <Phone>9052871000</Phone>
+                  <BusinessPhone>9052871000</BusinessPhone>
+               </Person>
+               <Address>
+                  <StreetNumber>28</StreetNumber>
+                  <StreetAddress1>Canada Street</StreetAddress1>
+                  <StreetAddress2>Second Floor</StreetAddress2>
+                  <Country>Canada</Country>
+                  <City>Toronto</City>
+                  <Province>ON</Province>
+                  <PostalCode>L4Z 8Y6</PostalCode>
+               </Address>
+               <Id>1024</Id>
+               <IsILARequired>true</IsILARequired>
+            </Guarantor>
+         </Guarantors>
+         <Properties>
+            <Property>
+               <Id>2238</Id>
+               <LegalDescription>Lot 3423423, Plan 2343DD: Heart of the City close to Mall/Sub/Bus/TTC etc. All aminities included</LegalDescription>
+               <PropertyType>SINGLE FAMILY RESIDENCE</PropertyType>
+               <OccupancyType>OWNER OCCUPIED</OccupancyType>
+               <PropertyAddress>
+                  <StreetNumber>1233</StreetNumber>
+                  <StreetAddress1>Victoria Street</StreetAddress1>
+                  <Country>Canada</Country>
+                  <City>Toronto</City>
+                  <Province>${#Project#Province}</Province>
+                  <PostalCode>L4Z 2Y5</PostalCode>
+               </PropertyAddress>
+               <PropertyIdentificationNumbers>
+                  <Number>026-109-221</Number>
+                  <Number>026-101-998</Number>
+               </PropertyIdentificationNumbers>
+               <MortgagePriority>FIRST</MortgagePriority>
+               <IsLenderToCollectPropertyTaxes>false</IsLenderToCollectPropertyTaxes>
+               <ExistingMortgages>
+                  <ExistingMortgage>
+                     <Amount>700</Amount>
+                     <Mortgagee>Testing this new schema change</Mortgagee>
+                     <Action>POSTPONED</Action>
+                  </ExistingMortgage>
+               </ExistingMortgages>
+               <EstateType>OTHER</EstateType>
+               <OtherEstateTypeDescription>Testing New Field</OtherEstateTypeDescription>
+            </Property>
+         </Properties>
+         <Attachments>
+            <Attachment>
+               <DocumentAttachment>p/9biuk19creUgW/ZxG1QA==</DocumentAttachment>
+               <Type>SIP</Type>
+               <FileFormat>APPLICATION/PDF</FileFormat>
+               <Language>ENGLISH</Language>
+            </Attachment>       
+         </Attachments>
+        <Documents>
+            <IsOtherAllowed>true</IsOtherAllowed>        
+            <!--SIP-->
+            <Document>
+               <Type>2161117</Type>
+               <Version>(11/09)</Version>
+               <NumberOfInstances>1</NumberOfInstances>
+            </Document>          
+         </Documents>
+         <PurchasePrice>125000</PurchasePrice>
+         <Remarks>Multiguarantor/mortgagors not in order/ILAS/SROT on 25thAugust</Remarks>
+      </ns:LenderRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

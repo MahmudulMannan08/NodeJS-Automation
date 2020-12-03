@@ -1,0 +1,22 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <GetLawyerDealEventsResponse xmlns="https://schemas.firstcdn.com/LLC/LenderIntegration/ExternalInterface/20090701">
+         <MessageID xmlns="">12167d29-8fde-13f0-126f-244ad9123846</MessageID>
+         <TimeStamp xmlns="">2019-12-16T12:38:47.7582268-05:00</TimeStamp>
+         <NumberOfMessages xmlns="">1</NumberOfMessages>
+         <Messages xmlns="">
+            <Message>
+               <EventType>ACCEPT</EventType>
+               <EventTimeStamp>2019-12-16T12:38:23.2365186-05:00</EventTimeStamp>
+               <FCTURN>19350086517</FCTURN>
+               <LenderReferenceNumber>BNS#121619#123807#ON</LenderReferenceNumber>
+               <UserName>
+                  <FirstName>Automation</FirstName>
+                  <LastName>Developer2</LastName>
+               </UserName>
+               <DealStatus>ACTIVE</DealStatus>
+            </Message>
+         </Messages>
+      </GetLawyerDealEventsResponse>
+   </s:Body>
+</s:Envelope>

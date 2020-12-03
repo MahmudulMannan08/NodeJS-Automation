@@ -1,0 +1,16 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <s:Fault>
+         <faultcode>s:Client</faultcode>
+         <faultstring xml:lang="en-CA">Lender Service Fault</faultstring>
+         <detail>
+            <LenderServiceFault xmlns="https://schemas.firstcdn.com/LLC/CommonTypes/20080625" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+               <Id>581</Id>
+               <Message>Actionable notes can only be sent for Active deals where the SROT has been submitted.</Message>
+               <Details><![CDATA[12/16/2019 12:40:23 PM | <ErrorDetail transactionID="12167d29-8fde-13f0-126f-244ad9124022" errorCount="1"><Error Id="581"><Message>Actionable notes can only be sent for Active deals where the SROT has been submitted.</Message></Error></ErrorDetail>]]></Details>
+               <ProblemFields/>
+            </LenderServiceFault>
+         </detail>
+      </s:Fault>
+   </s:Body>
+</s:Envelope>

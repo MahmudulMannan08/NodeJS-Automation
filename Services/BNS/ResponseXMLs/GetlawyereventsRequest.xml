@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="https://schemas.firstcdn.com/LLC/LenderIntegration/ExternalInterface/20090701">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:GetLawyerDealEventsRequest>
+      	<!--Optional:-->
+         <MessageID>${#TestCase#MessageID}</MessageID>
+         <!--Optional:-->
+         <LenderID>${#Project#LenderId}</LenderID>
+         <!--Optional:-->
+         <LenderReferenceNumbers>
+            <!--Zero or more repetitions:-->
+            <Number>${#Project#LenderRefNum}</Number>
+         </LenderReferenceNumbers>
+         <!--Optional:-->
+         <EventsLimit>50</EventsLimit>
+      </ns:GetLawyerDealEventsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

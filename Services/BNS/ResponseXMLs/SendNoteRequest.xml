@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="https://schemas.firstcdn.com/LLC/LenderIntegration/ExternalInterface/20090701">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:SendNoteRequest>
+      	<!--Optional:-->
+         <MessageID>${#TestCase#MessageID}</MessageID>
+         <!--Optional:-->
+         <DealInfo>
+            <!--Optional:-->
+            <LenderId>${#Project#LenderId}</LenderId>
+            <!--Optional:-->
+            <FCTURN>${#Project#FCTURN}</FCTURN>
+            <!--Optional:-->
+            <LenderReferenceNumber>${#Project#LenderRefNum}</LenderReferenceNumber>
+         </DealInfo>
+         <!--Optional:-->
+         <Note>
+            <ID>${#Project#NoteID}</ID>
+            <NotesType>${#Project#NoteType}</NotesType>
+            <Status>${#Project#NoteStatus}</Status>
+            <!--Optional:-->
+            <Subject>${#Project#NoteSubject}</Subject>
+            <!--Optional:-->
+            <Details>${#Project#NoteDetails}</Details>
+         </Note>
+      </ns:SendNoteRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

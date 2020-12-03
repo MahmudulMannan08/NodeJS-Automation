@@ -1,0 +1,38 @@
+{
+  "name": "llcunityproject",
+  "version": "1.0.0",
+  "description": "llcunity",
+  "main": "app.js",
+  "scripts": {
+    "test": "protractor ..\\LLCUnity\\Configuration\\conf.js",
+    "serve": "allure serve allure-results"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "ignore-case": "^0.1.0",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "mssql": "^5.1.0",
+    "node-rest-client": "^3.1.0",
+    "protractor": "^5.4.2",
+    "protractor-html-reporter": "^1.3.2",
+    "protractor-html-reporter-2": "^1.0.4",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "protractor-pretty-html-reporter": "0.0.16",
+    "q": "^1.5.1",
+    "sg-protractor-tools": "^1.0.4",
+    "soap": "^0.29.0",
+    "xlsx": "^0.15.6",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.4.0",
+    "allure-commandline": "^2.9.0",
+    "jasmine-allure-reporter": "^1.0.2"
+  }
+}

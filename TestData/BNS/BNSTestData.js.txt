@@ -1,0 +1,37 @@
+﻿// JavaScript source code
+'use strict';
+module.exports = {
+    "data":
+    {
+        "LANGUAGE": { value: "EN" },
+        "EN": {
+            "Notes": {
+                "LenderNoteSubject": "Automated lender note subject",
+                "LenderNoteDetails": "Automated lender note detail through SendNote SOAP service",
+                "LenderActionableNoteSubject": "Automated lender actionable note subject",
+                "LenderActionableNoteDetails": "Automated lender actionable note detail through SendNote SOAP service",
+                "subjectNote": "This is automated 100 char subject. This is automated 100 char subject. This is automated 100 char s",
+                "detailNote": "This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send note now. This is automated 10000 char note for BNS deal. Going to send no",
+                "detailNoteNavigate": "This is an attempt to navigate away",
+                "TestNote": "This is automated test note",
+                "commentRFF": "This is an automated comment on Request for funds page for re-submission",
+            },
+
+            "RFF": {
+                "commentRFF": "This is an automated comment on Request for funds page for re-submission",
+                "commentRFFSubmit": "This is an automated comment on Request for funds page",
+                "RFFReason1": "Automated lender RFF reason through SendRFFReject SOAP service",
+            },
+
+            "Service": {
+                "UpdatedClosingDate": "2035-04-12",
+            },
+
+            "RFC": {
+                "commentRFC": "This is an automated comment on Request for funds page for re-submission",
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="https://schemas.firstcdn.com/LLC/LenderIntegration/ExternalInterface/20090701">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:SendDealStatusChangeRequest>
+         <MessageID>${#TestCase#MessageID}</MessageID>
+         <Deal>
+            <DealInfo>
+               <LenderId>${#Project#LenderId}</LenderId>
+               <FCTURN>${#Project#FCTURN}</FCTURN>
+               <LenderReferenceNumber>${#Project#LenderRefNum}</LenderReferenceNumber>
+            </DealInfo>
+            <!--<RequestType>REINSTATE</RequestType>-->
+            <!--<RequestType>CLOSE</RequestType>-->
+            <RequestType>${#Project#RequestType}</RequestType>
+            <Reason>${#Project#Reason}</Reason>
+         </Deal>
+      </ns:SendDealStatusChangeRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
