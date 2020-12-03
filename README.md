@@ -10,15 +10,15 @@
 
 ### Short Description
 
--Jasmine (BDD framework to test Javascript)
+- Jasmine (BDD framework to test Javascript)
 
--Protractor (Browser driver for Angular based websites)
+- Protractor (Browser driver for Angular based websites)
 
 
 ### Project Insight
 
--Backend Soap service and Rest service automation
+- Backend Soap service and Rest API automation
 
--Frontend UI automation
+- Frontend UI automation
 
--Custom report creation
+- Custom report creation
