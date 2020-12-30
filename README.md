@@ -1,4 +1,4 @@
-# Node.js Automation
+# NodeJS Automation
 ## Angular based website and backend service automation with Node.js and Protractor
  
 **Development IDE:** Visual Studio Code
