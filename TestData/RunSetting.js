@@ -18,9 +18,9 @@ module.exports = {
                 "PROD": {
                     "URL": "",
                     "UserName": "test123",
-                    "Password": "Password1",
+                    "Password": "",
                     "Rel1UserName": "ali",
-                    "Rel1Password": "Password1",
+                    "Rel1Password": "",
                     "Rel2UserName": "",
                     "Rel2Password": "",
                     "Lender": {
@@ -77,11 +77,11 @@ module.exports = {
                 "DR": {
                     "URL": "http://mmsintdrlb.firstcdn.com/FCTPortal/SignOn.aspx",
                     "UserName": "test123",
-                    "Password": "Password1",
+                    "Password": "",
                     "Rel1UserName": "ali",
-                    "Rel1Password": "Password1",
-                    "Rel2UserName": "msudol",
-                    "Rel2Password": "Password1",
+                    "Rel1Password": "",
+                    "Rel2UserName": "",
+                    "Rel2Password": "",
                     "Lender": {
                         "0": {
                             "Name": "",
@@ -136,11 +136,11 @@ module.exports = {
                 "PREPROD": {
                     "URL": "http://mmsintsg.prefirstcdn.com/FCTPortal/SignOn.aspx",
                     "UserName": "testabcd",
-                    "Password": "Password1",
+                    "Password": "",
                     "Rel1UserName": "ali_scfc",
-                    "Rel1Password": "Password1",
+                    "Rel1Password": "",
                     "Rel2UserName": "test123",
-                    "Rel2Password": "Password1",
+                    "Rel2Password": "",
                     "Lender": {
                         "0": {
                             "Name": "",
@@ -260,11 +260,11 @@ module.exports = {
                 "RQA2": {
                     "URL": "http://iisprimmsiqa02.prefirstcdn.com/FCTPortal/Signon.aspx",
                     "UserName": "testabcd",
-                    "Password": "Password1",
+                    "Password": "",
                     "Rel1UserName": "ali_scfc",
-                    "Rel1Password": "Password1",
+                    "Rel1Password": "",
                     "Rel2UserName": "test123",
-                    "Rel2Password": "Password1",
+                    "Rel2Password": "",
                     "Lender": {
                         "0": {
                             "Name": "",
@@ -392,11 +392,11 @@ module.exports = {
                 "RQA1": {
                     "URL": "http:iisprimmsiqa01.exfirstcdn.com/FCTPortal/Signon.aspx",
                     "UserName": "testabcd",
-                    "Password": "Password1",
+                    "Password": "",
                     "Rel1UserName": "ali_scfc",
-                    "Rel1Password": "Password1",
+                    "Rel1Password": "",
                     "Rel2UserName": "test123",
-                    "Rel2Password": "Password1",
+                    "Rel2Password": "",
                     "Lender": {
                         "0": {
                             "Name": "Street Capital Financial Corporation",
@@ -524,40 +524,40 @@ module.exports = {
                 "PROD": {
                     "LenderPortalURL": "",
                     "TDUserName": "TTDASingla",
-                    "TDPassword": "Len$user@3",
+                    "TDPassword": "",
                     "BNSLenderUser": "TBNSASingla",
-                    "BNSLenderPassword": "Len$user@3"
+                    "BNSLenderPassword": ""
                 },
                 "DR": {
                     "LenderPortalURL": "https://llcdr.firstcdn.com/LenderPortal/Login.aspx",
                     "TDUserName": "TTDASingla",
-                    "TDPassword": "Len$user@2",
+                    "TDPassword": "",
                     "BNSLenderUser": "TBNSASingla",
-                    "BNSLenderPassword": "Len$user@2"
+                    "BNSLenderPassword": ""
                 },
 
                 "PREPROD": {
                     "LenderPortalURL": "https://llcsg.firstcdn.com/LenderPortal/Login.aspx",
                     "TDUserName": "TTDFAutomation",
-                    "TDPassword": "Len$user@2022",
+                    "TDPassword": "",
                     "BNSLenderUser": "TBNSALender3",
-                    "BNSLenderPassword": "Len$user@2022"
+                    "BNSLenderPassword": ""
                 },
 
                 "RQA2": {
                     "LenderPortalURL": "https://llcdp.firstcdn.com/LenderPortal/Login.aspx",
                     "TDUserName": "TTDFAutomation2",
-                    "TDPassword": "Len$user@2021",
+                    "TDPassword": "",
                     "BNSLenderUser": "TBNSFAutomation",
-                    "BNSLenderPassword": "Password@1"
+                    "BNSLenderPassword": ""
                 },
 
                 "RQA1": {
                     "LenderPortalURL": "http://iisprillcdqa01.prefirstcdn.com/LenderPortal/Login.aspx",
                     "TDUserName": "TTDFAutomation1",
-                    "TDPassword": "Len$user@2019",
+                    "TDPassword": "",
                     "BNSLenderUser": "TBNSALender1",
-                    "BNSLenderPassword": "Itmagnet-03"
+                    "BNSLenderPassword": ""
                 },
             },
 
@@ -753,7 +753,7 @@ module.exports = {
 
                 "PREPROD": {
                     "UserName": { value: "adeveloper2" },
-                    "Password": { value: "Itmagnet-03" },
+                    "Password": { value: "" },
                     "Token": { value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZGV2ZWxvcGVyMiIsImlhdCI6IjIwMTktMDQtMTcgMzoxNDozNCBQTSIsImp0aSI6IjIwNWU5MThiLWIwYjktNDdmYS05OWVkLWJlZmJkOGExOTgwYiIsIm5iZiI6MTU1NTUyODQ3NCwiZXhwIjoyMTg2NjgwNDc0LCJpc3MiOiJodHRwczovL3d3dy5mY3QuY2EvIiwiYXVkIjoiSW50ZWdyYXRpb24gUGFydG5lcnMifQ.EHG0lCPb2l1EPaSfyT-za3Dt8-Hen29urQxSTTt4MK4" },
                     "XFCTAuthorizationVal": { value: '{"authenticatedFctUser": "adeveloper2","userContext":{"partnerUserName": "adeveloper2","firstName": "Automation","lastName": "Developer2","businessRole": "LAWYER","fctUserName": ""}}' },
                     "TrustAccount": { value: " TD Canada Trust: 546 - 34532 - 457654674353 " },
@@ -771,7 +771,7 @@ module.exports = {
                     "URL": { value: "https://llcportalqa2.firstcdn.com/unity-emulator/#/emulator" },  //Remove if unused
                     "TransID": { value: "19024076346" },   //Remove if unused
                     "UserName": { value: "adeveloper2" },  //Remove if unused
-                    "Password": { value: "Itmagnet-03" },  //Remove if unused
+                    "Password": { value: "" },  //Remove if unused
                     "Token": { value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZGV2ZWxvcGVyMiIsImlhdCI6IjMvMS8yMDE5IDM6MTY6NDUgUE0iLCJqdGkiOiI5ZTFhODI1Yi1iNmRiLTRhMzgtOTk3Zi0wNWEzYWNkYmU0ODIiLCJuYmYiOjE1NTE0NzE0MDUsImV4cCI6MjE4MjYyMzQwNSwiaXNzIjoiaHR0cHM6Ly93d3cuZmN0LmNhLyIsImF1ZCI6IkludGVncmF0aW9uIFBhcnRuZXJzIn0.OIK9vEoVMuTO_XM8xosvLBZg3bWTkXaNHGv-8qNlbME" },
                     "TrustAccount": { value: " TD Canada Trust: 546 - 34532 - 457654674353 " },  //Remove if unused
                     "XFCTAuthorizationVal": { value: '{"partnerToken":"28CA95A5-3E8D-4EEA-A7B4-4029A7D7AA80", authenticatedFctUser": "adeveloper2","userContext":{"partnerUserName": "adeveloper2","firstName": "Automation","lastName": "Developer2","businessRole": "LAWYER","fctUserName": ""}}' },
@@ -789,7 +789,7 @@ module.exports = {
                     "URL": { value: "http://iisprillcundqa1.prefirstcdn.com/unity-emulator/#/emulator" },
                     "TransID": { value: "19024076346" },
                     "UserName": { value: "llawyer11" },
-                    "Password": { value: "llcuser14#$" },
+                    "Password": { value: "" },
                     "Token": { value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsbGF3eWVyMTEiLCJpYXQiOiI5LzYvMjAxOCA4OjE3OjU5IEFNIiwianRpIjoiYTAxMzExZmMtNWJjOC00OWMyLTlkYzUtNTNmZTY3ZmM5NzFmIiwibmJmIjoxNTM2MjM2Mjc5LCJleHAiOjIxNjczODgyNzksImlzcyI6Imh0dHBzOi8vd3d3LmZjdC5jYS8iLCJhdWQiOiJJbnRlZ3JhdGlvbiBQYXJ0bmVycyJ9.sh1duT0EAG550bk7M1mX4kn0TUl2-a_bAIJCk5gCe20" },
                     "TrustAccount": { value: " CIBC: 643 - 56436 - 43643643643 " },
                     "XFCTAuthorizationVal": { value: '{"partnerToken":"28CA95A5-3E8D-4EEA-A7B4-4029A7D7AA80","authenticatedFctUser": "adeveloper","userContext":{"partnerUserName": "adeveloper","firstName": "Automation","lastName": "Developer","businessRole": "LAWYER","fctUserName": ""}}' },
@@ -825,9 +825,9 @@ module.exports = {
 
                 "URL": { value: "https://webmail.fct.ca/owa/auth/logon.aspx/" },
                 "UserName": { value: "LLCTestAutomation01" },
-                "Password": { value: "FCT1235!" },
+                "Password": { value: "" },
                 "DelegateUserName": { value: "LLCTestAutomation02" },
-                "DelegatePassword": { value: "FCT1235!" },
+                "DelegatePassword": { value: "" },
             },
 
             "RedirectURLCredentials": {
